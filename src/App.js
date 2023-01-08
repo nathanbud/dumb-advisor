@@ -29,7 +29,9 @@ class App extends React.Component{
             <div className="app">
                 <div className="card">
                 <h1 className='advice-text'>{advice}</h1>
-                <button className='advice-button' onClick={this.fetchAdvice}>GIVE ME ADVICE</button>
+                <button className='advice-button' onClick={this.fetchAdvice}>
+                    <span>GIVE ME ADVICE</span>
+                </button>
                 </div>
             </div>
         )
